@@ -1,0 +1,79 @@
+========================================
+  GUIDE RAPIDE - Configuration JavaFX
+========================================
+
+ETAPE 1 : Télécharger JavaFX
+-----------------------------
+1. Ouvrez votre navigateur
+2. Allez sur : https://openjfx.io/
+3. Cliquez sur "Download"
+4. Choisissez :
+   - Version : 17 (ou celle correspondant à votre Java)
+   - Platform : Windows
+   - Type : SDK
+5. Téléchargez le fichier ZIP
+
+ETAPE 2 : Extraire JavaFX
+-------------------------
+1. Trouvez le fichier ZIP téléchargé (ex: openjfx-17.0.2_windows-x64_bin-sdk.zip)
+2. Faites un clic droit → Extraire tout...
+3. Extrayez dans un dossier facile à retenir, par exemple :
+   C:\javafx-sdk-17.0.2
+
+ETAPE 3 : Trouver le chemin vers "lib"
+--------------------------------------
+1. Ouvrez le dossier que vous venez d'extraire (ex: C:\javafx-sdk-17.0.2)
+2. Ouvrez le dossier "lib" à l'intérieur
+3. Vous devriez voir des fichiers comme :
+   - javafx.controls.jar
+   - javafx.fxml.jar
+   - etc.
+4. Le chemin complet est : C:\javafx-sdk-17.0.2\lib
+
+ETAPE 4 : Configurer
+--------------------
+Option A - Utiliser le script (RECOMMANDÉ) :
+1. Double-cliquez sur "configurerJavaFX.bat"
+2. Entrez le chemin : C:\javafx-sdk-17.0.2\lib
+3. Appuyez sur Entrée
+
+Option B - Créer un fichier :
+1. Créez un fichier texte nommé "javafx_path.txt"
+2. Écrivez dedans : C:\javafx-sdk-17.0.2\lib
+3. Sauvegardez le fichier
+
+Option C - Entrer directement dans le script :
+1. Quand le script demande le chemin, tapez :
+   C:\javafx-sdk-17.0.2\lib
+2. Appuyez sur Entrée
+
+========================================
+  EXEMPLE DE CHEMIN
+========================================
+
+Si vous avez extrait JavaFX dans C:\javafx-sdk-17.0.2
+Le chemin à entrer est : C:\javafx-sdk-17.0.2\lib
+
+IMPORTANT : Le chemin doit pointer vers le dossier "lib"
+qui se trouve À L'INTÉRIEUR du dossier JavaFX.
+
+========================================
+  VÉRIFICATION
+========================================
+
+Pour vérifier que le chemin est correct :
+1. Ouvrez l'explorateur Windows
+2. Naviguez vers le chemin que vous avez entré
+3. Vous devriez voir des fichiers .jar comme :
+   - javafx.controls.jar
+   - javafx.fxml.jar
+   - javafx.base.jar
+
+Si vous voyez ces fichiers, le chemin est correct !
+
+========================================
+  AIDE SUPPLÉMENTAIRE
+========================================
+
+Consultez INSTALLATION_JAVAFX.md pour plus de détails.
+

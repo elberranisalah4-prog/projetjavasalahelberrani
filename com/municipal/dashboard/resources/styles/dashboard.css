@@ -1,0 +1,207 @@
+/* Dashboard Services Publics - Styles Personnalisés */
+
+/* Fond principal - Rouge */
+.root {
+    -fx-background-color: #dc3545; /* Rouge */
+}
+
+/* Header - Rouge foncé */
+.header {
+    -fx-background-color: #c82333; /* Rouge foncé */
+    -fx-padding: 15 20 15 20;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.header-version {
+    -fx-text-fill: #f8f9fa;
+    -fx-font-size: 12px;
+}
+
+/* Menu latéral - Rouge foncé */
+.menu-bar {
+    -fx-background-color: #c82333; /* Rouge foncé */
+    -fx-min-width: 250px;
+    -fx-padding: 20 10 20 10;
+}
+
+/* Boutons de menu - Noir */
+.menu-button {
+    -fx-background-color: #000000; /* Noir */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-padding: 12 15 12 15;
+    -fx-max-width: infinity;
+    -fx-alignment: center-left;
+}
+
+.menu-button:hover {
+    -fx-background-color: #333333; /* Gris foncé au survol */
+}
+
+.menu-button-active {
+    -fx-background-color: #1a1a1a; /* Noir plus clair pour l'actif */
+    -fx-text-fill: white;
+}
+
+/* Zone de contenu - Blanc */
+.content-area {
+    -fx-background-color: white;
+    -fx-padding: 20;
+}
+
+/* Titres de modules - Noir sur blanc */
+.module-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000; /* Noir */
+}
+
+/* Boutons d'action - Noir */
+.btn-add {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.btn-add:hover {
+    -fx-background-color: #333333;
+}
+
+.btn-edit {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.btn-edit:hover {
+    -fx-background-color: #333333;
+}
+
+.btn-delete {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.btn-delete:hover {
+    -fx-background-color: #333333;
+}
+
+.btn-refresh {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.btn-refresh:hover {
+    -fx-background-color: #333333;
+}
+
+/* Tableaux - Blanc avec bordures */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dee2e6;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #000000;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8f9fa;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+}
+
+/* Dashboard - Cartes blanches */
+.stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 2);
+    -fx-padding: 20;
+    -fx-min-width: 200;
+    -fx-min-height: 150;
+}
+
+.stat-value {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000; /* Noir */
+}
+
+.stat-title {
+    -fx-font-size: 14px;
+    -fx-text-fill: #6c757d;
+}
+
+/* Labels et textes - Noir sur blanc */
+.label {
+    -fx-text-fill: #000000;
+}
+
+.welcome-text {
+    -fx-font-size: 18px;
+    -fx-text-fill: #6c757d;
+}
+
+/* Dialogues - Fond blanc */
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #000000;
+}
+
+/* Champs de texte - Blanc */
+.text-field, .text-area {
+    -fx-background-color: white;
+    -fx-text-fill: #000000;
+    -fx-border-color: #dee2e6;
+}
+
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #dc3545;
+}
+
+/* ComboBox - Blanc */
+.combo-box {
+    -fx-background-color: white;
+    -fx-text-fill: #000000;
+}
+
+/* Boutons de dialogue - Noir */
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+.button:pressed {
+    -fx-background-color: #1a1a1a;
+}
+
