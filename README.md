@@ -3,7 +3,7 @@
 **Date :** Janvier 2025  
 **Projet :** Système de Gestion Municipal - Dashboard Services Publics  
 **Langage :** Java 17  
-**Base de données :** MySQL/MariaDB  
+**Base de données :** MySQL  
 
 ---
 
